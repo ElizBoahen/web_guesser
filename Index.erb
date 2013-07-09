@@ -1,10 +1,14 @@
-#"The secret number is #{number}"
-
 <html>
-  <head></head>
+  <head></head> 
   <body>
     <p>
-      The SECRET NUMBER is <%= number %>
+    <h1>The Guessing Game!</h1>
+      THE SECRET NUMBER IS: <%= number %> <br>
+      <form>
+    	<input type='text' name='guess' />
+  		<input type='submit' value='Guess!' />
+	</form>
     </p>
   </body>
 </html>
+You're guess is <%= guess %>
