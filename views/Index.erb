@@ -5,10 +5,12 @@
     <h1>The Guessing Game!</h1>
       THE SECRET NUMBER IS: <%= number %> <br>
       <form>
-    	<input type='text' name='guess' />
-  		<input type='submit' value='Guess!' />
-	</form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+  </form>
     </p>
   </body>
 </html>
-You're guess is <%= guess %>
+<%= guess_string %>
+<%= guess_empty %>
+<%= guess %>
